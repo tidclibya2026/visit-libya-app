@@ -152,6 +152,12 @@ abstract class AppLocalizations {
   /// **'Top experiences'**
   String get topExperiences;
 
+  /// No description provided for @imageUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Image unavailable'**
+  String get imageUnavailable;
+
   /// No description provided for @plan.
   ///
   /// In en, this message translates to:

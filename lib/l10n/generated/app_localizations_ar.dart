@@ -36,6 +36,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get topExperiences => 'أبرز التجارب';
 
   @override
+  String get imageUnavailable => 'الصورة غير متاحة';
+
+  @override
   String get plan => 'خطط رحلتك';
 
   @override

@@ -36,6 +36,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get topExperiences => 'Top experiences';
 
   @override
+  String get imageUnavailable => 'Image unavailable';
+
+  @override
   String get plan => 'Plan';
 
   @override
