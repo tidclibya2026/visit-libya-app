@@ -1,0 +1,90 @@
+{
+  "@@locale": "ar",
+
+  "appName": "Visit Libya",
+  "tagline": "رحلة عبر الزمن",
+
+  "home": "الرئيسية",
+  "explore": "استكشف",
+  "destinations": "الوجهات",
+  "searchDestinations": "ابحث في الوجهات",
+  "all": "الكل",
+  "whyVisit": "لماذا تزورها",
+  "topExperiences": "أبرز التجارب",
+  "plan": "خطط رحلتك",
+  "more": "المزيد",
+
+  "discoverLibya": "اكتشف ليبيا",
+  "heroSubtitle": "حضارات عريقة، طبيعة متنوعة، وتجارب لا تُنسى.",
+
+  "exploreDestinations": "استكشف الوجهات",
+  "planYourTrip": "خطط رحلتك",
+
+  "featuredDestinations": "وجهات مميزة",
+  "exploreByExperience": "استكشف حسب التجربة",
+  "eventsAndHighlights": "الأحداث والفعاليات",
+  "visualGallery": "معرض الصور",
+  "smartGuide": "الدليل الذكي",
+  "smartGuideBeta": "الدليل الذكي — تجريبي",
+  "touristRoutes": "المسارات السياحية",
+  "beforeTravel": "قبل السفر",
+
+  "heritageAndCivilizations": "التراث والحضارات",
+  "desertAndAdventure": "الصحراء والمغامرة",
+  "coastAndSea": "البحر والساحل",
+  "natureAndMountains": "الطبيعة والجبال",
+  "cultureAndCommunity": "الثقافة والمجتمع",
+  "foodAndLocalTaste": "الطعام والمذاق المحلي",
+  "festivalsAndEvents": "المهرجانات والفعاليات",
+
+  "search": "بحث",
+  "filter": "تصفية",
+  "viewAll": "عرض الكل",
+  "discover": "اكتشف",
+  "learnMore": "اعرف المزيد",
+  "comingSoon": "قريباً",
+
+  "gallery": "معرض الصور",
+  "events": "الأحداث",
+  "routes": "المسارات",
+  "about": "حول Visit Libya",
+  "language": "اللغة",
+
+  "arabic": "العربية",
+  "english": "الإنجليزية",
+
+  "tripDuration": "مدة الرحلة",
+  "interests": "الاهتمامات",
+  "travelStyle": "أسلوب السفر",
+  "groupType": "نوع المجموعة",
+  "generateTrip": "أنشئ الرحلة",
+  "suggestedTrip": "الرحلة المقترحة",
+
+  "heritage": "التراث",
+  "archaeology": "الآثار",
+  "nature": "الطبيعة",
+  "desert": "الصحراء",
+  "coast": "الساحل",
+  "culture": "الثقافة",
+  "food": "الطعام",
+  "adventure": "المغامرة",
+  "photography": "التصوير",
+
+  "relaxed": "هادئ",
+  "balanced": "متوازن",
+  "active": "نشط",
+
+  "solo": "فردي",
+  "couple": "زوجان",
+  "family": "عائلة",
+  "friends": "أصدقاء",
+  "group": "مجموعة",
+
+  "noResults": "لا توجد نتائج",
+  "unableToLoadContent": "تعذر تحميل المحتوى",
+  "tryAgain": "حاول مرة أخرى",
+
+  "verifyOfficialAuthorities": "تحقق من الجهات الرسمية المختصة قبل السفر.",
+
+  "expertReviewBuild": "نسخة مراجعة الخبراء"
+}

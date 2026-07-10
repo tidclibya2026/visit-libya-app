@@ -1,0 +1,272 @@
+[
+  {
+    "id": "tripoli",
+    "nameAr": "طرابلس",
+    "nameEn": "Tripoli",
+    "locationAr": "شمال غرب ليبيا",
+    "locationEn": "Northwestern Libya",
+    "categoryId": "cities",
+    "categoryAr": "المدن والتجارب الحضرية",
+    "categoryEn": "Cities & Urban Experiences",
+    "shortDescriptionAr": "مدينة متوسطية تجمع المدينة القديمة والحياة الحضرية المعاصرة.",
+    "shortDescriptionEn": "A Mediterranean city combining the old city with contemporary urban life.",
+    "descriptionAr": "تقدم طرابلس تجربة تبدأ من أزقة المدينة القديمة والأسواق التاريخية وتمتد إلى الواجهة البحرية والمشهد الحضري الحديث.",
+    "descriptionEn": "Tripoli offers an experience that begins in the lanes and historic markets of the old city and extends to the waterfront and contemporary urban scene.",
+    "whyVisitAr": "وجهة مناسبة لبداية الرحلة والتعرف على طبقات التاريخ والحياة اليومية والثقافة المحلية.",
+    "whyVisitEn": "An ideal starting point for discovering layers of history, everyday life, and local culture.",
+    "image": "",
+    "highlightsAr": [
+      "المدينة القديمة",
+      "الأسواق التقليدية",
+      "الواجهة البحرية"
+    ],
+    "highlightsEn": [
+      "Old City",
+      "Traditional Markets",
+      "Waterfront"
+    ]
+  },
+  {
+    "id": "leptis-magna",
+    "nameAr": "لبدة الكبرى",
+    "nameEn": "Leptis Magna",
+    "locationAr": "الخمس، الساحل الغربي",
+    "locationEn": "Al Khums, western coast",
+    "categoryId": "heritage",
+    "categoryAr": "التراث والحضارات",
+    "categoryEn": "Heritage & Civilizations",
+    "shortDescriptionAr": "وجهة أثرية واسعة تقدم تجربة مباشرة مع عمق التاريخ على الساحل المتوسطي.",
+    "shortDescriptionEn": "An extensive archaeological destination offering direct engagement with deep history on the Mediterranean coast.",
+    "descriptionAr": "تجمع لبدة الكبرى بين الفضاء الأثري الواسع والتخطيط العمراني التاريخي والعناصر المعمارية التي تجعل الزيارة تجربة بصرية ومعرفية متكاملة.",
+    "descriptionEn": "Leptis Magna combines an extensive archaeological landscape, historic urban planning, and architectural elements in a rich visual and educational experience.",
+    "whyVisitAr": "للتجول داخل مشهد أثري متكامل وفهم جانب مهم من تاريخ المدن المتوسطية القديمة.",
+    "whyVisitEn": "To walk through an integrated archaeological landscape and explore an important dimension of ancient Mediterranean urban history.",
+    "image": "",
+    "highlightsAr": [
+      "المشهد الأثري",
+      "العمارة التاريخية",
+      "التجربة الثقافية"
+    ],
+    "highlightsEn": [
+      "Archaeological Landscape",
+      "Historic Architecture",
+      "Cultural Experience"
+    ]
+  },
+  {
+    "id": "sabratha",
+    "nameAr": "صبراتة",
+    "nameEn": "Sabratha",
+    "locationAr": "الساحل الغربي",
+    "locationEn": "Western coast",
+    "categoryId": "heritage",
+    "categoryAr": "التراث والحضارات",
+    "categoryEn": "Heritage & Civilizations",
+    "shortDescriptionAr": "مدينة أثرية ساحلية تجمع التاريخ والمشهد المتوسطي.",
+    "shortDescriptionEn": "A coastal archaeological city where history meets the Mediterranean setting.",
+    "descriptionAr": "توفر صبراتة تجربة تجمع بين البقايا الأثرية والفضاءات المفتوحة وقرب البحر، بما يمنح الزائر رحلة متوازنة بين المعرفة والمشهد.",
+    "descriptionEn": "Sabratha combines archaeological remains, open spaces, and proximity to the sea, creating a balanced journey between knowledge and scenery.",
+    "whyVisitAr": "للاستمتاع بتجربة أثرية ذات هوية ساحلية ومشهد بصري مميز.",
+    "whyVisitEn": "For an archaeological experience with a distinctive coastal identity and visual setting.",
+    "image": "",
+    "highlightsAr": [
+      "المواقع الأثرية",
+      "المشهد الساحلي",
+      "التصوير"
+    ],
+    "highlightsEn": [
+      "Archaeological Sites",
+      "Coastal Scenery",
+      "Photography"
+    ]
+  },
+  {
+    "id": "ghadames",
+    "nameAr": "غدامس",
+    "nameEn": "Ghadames",
+    "locationAr": "جنوب غرب ليبيا",
+    "locationEn": "Southwestern Libya",
+    "categoryId": "heritage",
+    "categoryAr": "التراث والحضارات",
+    "categoryEn": "Heritage & Civilizations",
+    "shortDescriptionAr": "مدينة واحية تاريخية ذات نسيج عمراني وثقافي مميز.",
+    "shortDescriptionEn": "A historic oasis city with a distinctive urban and cultural fabric.",
+    "descriptionAr": "تقدم غدامس تجربة ترتبط بالمدينة القديمة والعمارة المحلية وذاكرة الواحة وأنماط العيش التي تشكلت في البيئة الصحراوية.",
+    "descriptionEn": "Ghadames offers an experience centered on the old city, local architecture, oasis memory, and ways of life shaped by the desert environment.",
+    "whyVisitAr": "لاكتشاف علاقة فريدة بين العمارة والمجتمع والواحة والبيئة الصحراوية.",
+    "whyVisitEn": "To discover a distinctive relationship between architecture, community, oasis life, and the desert environment.",
+    "image": "",
+    "highlightsAr": [
+      "المدينة القديمة",
+      "العمارة المحلية",
+      "ثقافة الواحة"
+    ],
+    "highlightsEn": [
+      "Old City",
+      "Local Architecture",
+      "Oasis Culture"
+    ]
+  },
+  {
+    "id": "akakus",
+    "nameAr": "أكاكوس",
+    "nameEn": "Akakus",
+    "locationAr": "جنوب غرب ليبيا",
+    "locationEn": "Southwestern Libya",
+    "categoryId": "desert",
+    "categoryAr": "الصحراء والمغامرة",
+    "categoryEn": "Desert & Adventure",
+    "shortDescriptionAr": "مشاهد صحراوية وتكوينات صخرية وذاكرة إنسانية ممتدة في المكان.",
+    "shortDescriptionEn": "Desert landscapes, rock formations, and a deep human memory embedded in place.",
+    "descriptionAr": "تقدم أكاكوس تجربة صحراوية تعتمد على اتساع المشهد والتكوينات الطبيعية والفن الصخري، وتحتاج الرحلة إليها إلى تخطيط وتجهيز مناسبين.",
+    "descriptionEn": "Akakus offers a desert experience shaped by vast scenery, natural formations, and rock art, requiring appropriate planning and preparation.",
+    "whyVisitAr": "للباحثين عن المغامرة والتصوير والجيولوجيا وقراءة العلاقة القديمة بين الإنسان والصحراء.",
+    "whyVisitEn": "For travelers interested in adventure, photography, geology, and the long relationship between people and the desert.",
+    "image": "",
+    "highlightsAr": [
+      "التكوينات الصخرية",
+      "الفن الصخري",
+      "المغامرة الصحراوية"
+    ],
+    "highlightsEn": [
+      "Rock Formations",
+      "Rock Art",
+      "Desert Adventure"
+    ]
+  },
+  {
+    "id": "ubari",
+    "nameAr": "أوباري",
+    "nameEn": "Ubari",
+    "locationAr": "فزان، جنوب غرب ليبيا",
+    "locationEn": "Fezzan, southwestern Libya",
+    "categoryId": "desert",
+    "categoryAr": "الصحراء والمغامرة",
+    "categoryEn": "Desert & Adventure",
+    "shortDescriptionAr": "بوابة إلى مشاهد الكثبان والواحات والبحيرات الصحراوية.",
+    "shortDescriptionEn": "A gateway to dunes, oases, and desert lake landscapes.",
+    "descriptionAr": "تقدم منطقة أوباري تجربة بصرية مختلفة تجمع اتساع الرمال ومشاهد الواحات والبيئة الصحراوية، مع أهمية التخطيط المسبق للرحلات.",
+    "descriptionEn": "The Ubari area offers a distinctive visual experience combining expansive dunes, oasis scenery, and the desert environment, with advance trip planning essential.",
+    "whyVisitAr": "لمحبي الصحراء والتصوير والمشاهد الطبيعية وتجارب الواحات.",
+    "whyVisitEn": "For travelers drawn to desert landscapes, photography, nature, and oasis experiences.",
+    "image": "",
+    "highlightsAr": [
+      "الكثبان الرملية",
+      "الواحات",
+      "التصوير الطبيعي"
+    ],
+    "highlightsEn": [
+      "Sand Dunes",
+      "Oases",
+      "Landscape Photography"
+    ]
+  },
+  {
+    "id": "green-mountain",
+    "nameAr": "الجبل الأخضر",
+    "nameEn": "Green Mountain",
+    "locationAr": "شرق ليبيا",
+    "locationEn": "Eastern Libya",
+    "categoryId": "nature",
+    "categoryAr": "الطبيعة والجبال",
+    "categoryEn": "Nature & Mountains",
+    "shortDescriptionAr": "مرتفعات ومناظر طبيعية وامتداد ساحلي يمنح شرق ليبيا شخصية متنوعة.",
+    "shortDescriptionEn": "Highlands, natural scenery, and coastal settings that give eastern Libya a diverse character.",
+    "descriptionAr": "يقدم الجبل الأخضر تجربة طبيعية تجمع المرتفعات والغطاء النباتي والمشاهد المفتوحة والاقتراب من وجهات ساحلية وثقافية متعددة.",
+    "descriptionEn": "The Green Mountain offers a nature experience combining highlands, vegetation, open scenery, and access to varied coastal and cultural destinations.",
+    "whyVisitAr": "للتنزه والاستكشاف والتصوير وتجارب الطبيعة ذات الإيقاع الهادئ.",
+    "whyVisitEn": "For walking, exploration, photography, and slower-paced nature experiences.",
+    "image": "",
+    "highlightsAr": [
+      "المرتفعات",
+      "المشاهد الطبيعية",
+      "الطرق السياحية"
+    ],
+    "highlightsEn": [
+      "Highlands",
+      "Natural Scenery",
+      "Touring Routes"
+    ]
+  },
+  {
+    "id": "benghazi",
+    "nameAr": "بنغازي",
+    "nameEn": "Benghazi",
+    "locationAr": "شرق ليبيا",
+    "locationEn": "Eastern Libya",
+    "categoryId": "cities",
+    "categoryAr": "المدن والتجارب الحضرية",
+    "categoryEn": "Cities & Urban Experiences",
+    "shortDescriptionAr": "مدينة شرقية ذات حضور ساحلي وثقافي وحضري متنوع.",
+    "shortDescriptionEn": "An eastern city with a diverse coastal, cultural, and urban character.",
+    "descriptionAr": "تتيح بنغازي للزائر التعرف على الحياة الحضرية في شرق ليبيا، واستكشاف فضاءات المدينة وواجهتها البحرية ومحيطها الثقافي.",
+    "descriptionEn": "Benghazi introduces visitors to urban life in eastern Libya through city spaces, the waterfront, and its broader cultural setting.",
+    "whyVisitAr": "لفهم شخصية شرق ليبيا الحضرية والانطلاق إلى وجهات قريبة ومتنوعة.",
+    "whyVisitEn": "To experience the urban character of eastern Libya and connect with a range of nearby destinations.",
+    "image": "",
+    "highlightsAr": [
+      "الحياة الحضرية",
+      "الواجهة البحرية",
+      "الثقافة المحلية"
+    ],
+    "highlightsEn": [
+      "Urban Life",
+      "Waterfront",
+      "Local Culture"
+    ]
+  },
+  {
+    "id": "misrata",
+    "nameAr": "مصراتة",
+    "nameEn": "Misrata",
+    "locationAr": "الساحل الشمالي الغربي",
+    "locationEn": "Northwestern coast",
+    "categoryId": "cities",
+    "categoryAr": "المدن والتجارب الحضرية",
+    "categoryEn": "Cities & Urban Experiences",
+    "shortDescriptionAr": "مدينة ساحلية نشطة تجمع التجربة الحضرية والهوية المحلية.",
+    "shortDescriptionEn": "An active coastal city combining urban experiences with a strong local identity.",
+    "descriptionAr": "تقدم مصراتة تجربة مدينة معاصرة يمكن من خلالها التعرف على الحياة المحلية والأسواق والفضاءات الحضرية والامتداد الساحلي.",
+    "descriptionEn": "Misrata offers a contemporary city experience through local life, markets, urban spaces, and its coastal setting.",
+    "whyVisitAr": "لتجربة مدينة ليبية نشطة والتعرف على تفاصيل الحياة المحلية والهوية الحضرية.",
+    "whyVisitEn": "To experience an active Libyan city and discover local life and urban identity.",
+    "image": "",
+    "highlightsAr": [
+      "التجربة الحضرية",
+      "الأسواق",
+      "المشهد الساحلي"
+    ],
+    "highlightsEn": [
+      "Urban Experience",
+      "Markets",
+      "Coastal Setting"
+    ]
+  },
+  {
+    "id": "nafusa-mountains",
+    "nameAr": "جبل نفوسة",
+    "nameEn": "Nafusa Mountains",
+    "locationAr": "شمال غرب ليبيا",
+    "locationEn": "Northwestern Libya",
+    "categoryId": "nature",
+    "categoryAr": "الطبيعة والجبال",
+    "categoryEn": "Nature & Mountains",
+    "shortDescriptionAr": "مرتفعات وقرى وعمارة محلية ومشاهد ثقافية متصلة بالمكان.",
+    "shortDescriptionEn": "Highlands, settlements, local architecture, and cultural landscapes rooted in place.",
+    "descriptionAr": "يقدم جبل نفوسة رحلة بين المشاهد الجبلية والتجمعات المحلية والعمارة التقليدية، مع تنوع واضح في التجارب الثقافية والطبيعية.",
+    "descriptionEn": "The Nafusa Mountains offer a journey through mountain scenery, local settlements, and traditional architecture, with varied cultural and nature experiences.",
+    "whyVisitAr": "لرحلات الطريق والاستكشاف والتصوير والتعرف على العمارة والمجتمعات المحلية.",
+    "whyVisitEn": "For road trips, exploration, photography, and encounters with local architecture and communities.",
+    "image": "",
+    "highlightsAr": [
+      "المشاهد الجبلية",
+      "العمارة المحلية",
+      "رحلات الطريق"
+    ],
+    "highlightsEn": [
+      "Mountain Scenery",
+      "Local Architecture",
+      "Road Trips"
+    ]
+  }
+]

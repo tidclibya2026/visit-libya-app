@@ -1,0 +1,97 @@
+{
+  "@@locale": "en",
+
+  "appName": "Visit Libya",
+  "@appName": {
+    "description": "Official application name"
+  },
+
+  "tagline": "A Journey Through Time",
+  "@tagline": {
+    "description": "Visit Libya brand tagline"
+  },
+
+  "home": "Home",
+  "explore": "Explore",
+  "destinations": "Destinations",
+  "searchDestinations": "Search destinations",
+  "all": "All",
+  "whyVisit": "Why visit",
+  "topExperiences": "Top experiences",
+  "plan": "Plan",
+  "more": "More",
+
+  "discoverLibya": "Discover Libya",
+  "heroSubtitle": "Ancient civilizations, diverse landscapes, and unforgettable experiences.",
+
+  "exploreDestinations": "Explore Destinations",
+  "planYourTrip": "Plan Your Trip",
+
+  "featuredDestinations": "Featured Destinations",
+  "exploreByExperience": "Explore by Experience",
+  "eventsAndHighlights": "Events & Highlights",
+  "visualGallery": "Visual Gallery",
+  "smartGuide": "Smart Guide",
+  "smartGuideBeta": "Smart Guide — Beta",
+  "touristRoutes": "Tourist Routes",
+  "beforeTravel": "Before Travel",
+
+  "heritageAndCivilizations": "Heritage & Civilizations",
+  "desertAndAdventure": "Desert & Adventure",
+  "coastAndSea": "Coast & Sea",
+  "natureAndMountains": "Nature & Mountains",
+  "cultureAndCommunity": "Culture & Community",
+  "foodAndLocalTaste": "Food & Local Taste",
+  "festivalsAndEvents": "Festivals & Events",
+
+  "search": "Search",
+  "filter": "Filter",
+  "viewAll": "View All",
+  "discover": "Discover",
+  "learnMore": "Learn More",
+  "comingSoon": "Coming Soon",
+
+  "gallery": "Gallery",
+  "events": "Events",
+  "routes": "Routes",
+  "about": "About Visit Libya",
+  "language": "Language",
+
+  "arabic": "Arabic",
+  "english": "English",
+
+  "tripDuration": "Trip Duration",
+  "interests": "Interests",
+  "travelStyle": "Travel Style",
+  "groupType": "Group Type",
+  "generateTrip": "Generate Trip",
+  "suggestedTrip": "Suggested Trip",
+
+  "heritage": "Heritage",
+  "archaeology": "Archaeology",
+  "nature": "Nature",
+  "desert": "Desert",
+  "coast": "Coast",
+  "culture": "Culture",
+  "food": "Food",
+  "adventure": "Adventure",
+  "photography": "Photography",
+
+  "relaxed": "Relaxed",
+  "balanced": "Balanced",
+  "active": "Active",
+
+  "solo": "Solo",
+  "couple": "Couple",
+  "family": "Family",
+  "friends": "Friends",
+  "group": "Group",
+
+  "noResults": "No results found",
+  "unableToLoadContent": "Unable to load content",
+  "tryAgain": "Try Again",
+
+  "verifyOfficialAuthorities": "Verify current requirements with the relevant official authorities before travel.",
+
+  "expertReviewBuild": "Expert Review Build"
+}
