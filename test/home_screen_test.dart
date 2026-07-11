@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:visit_libya_app/app/app.dart';
 import 'package:visit_libya_app/data/repositories/destination_repository.dart';
+import 'package:visit_libya_app/data/repositories/experience_repository.dart';
 import 'package:visit_libya_app/features/destinations/destination_detail_screen.dart';
 import 'package:visit_libya_app/features/home/home_screen.dart';
 import 'package:visit_libya_app/l10n/generated/app_localizations.dart';
@@ -182,7 +183,11 @@ Widget _testApp({
     localizationsDelegates: AppLocalizations.localizationsDelegates,
     home: HomeScreen(
       repository: repository,
+      experienceRepository: ExperienceRepository(
+        assetBundle: _TrackingAssetBundle(_testExperienceJson()),
+      ),
       onExploreDestinations: onExploreDestinations ?? () {},
+      onExploreExperiences: () {},
       onPlanTrip: onPlanTrip ?? () {},
     ),
   );
@@ -200,6 +205,20 @@ String _testDestinationsJson({int count = 1}) {
       growable: false,
     ),
   );
+}
+
+String _testExperienceJson() {
+  return jsonEncode(<Map<String, dynamic>>[
+    <String, dynamic>{
+      'id': 'heritage',
+      'titleAr': 'التراث والحضارات',
+      'titleEn': 'Heritage & Civilizations',
+      'descriptionAr': 'اكتشف تاريخ ليبيا.',
+      'descriptionEn': 'Discover Libya history.',
+      'icon': 'museum',
+      'image': '',
+    },
+  ]);
 }
 
 Map<String, dynamic> _destinationJson(int number) {

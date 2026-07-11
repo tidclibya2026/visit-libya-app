@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/localization/l10n_extension.dart';
 import '../core/localization/locale_controller.dart';
+import '../data/repositories/experience_repository.dart';
 import '../features/destinations/destinations_screen.dart';
 import '../features/explore/explore_screen.dart';
 import '../features/home/home_screen.dart';
@@ -10,14 +11,20 @@ import '../features/trip_planner/trip_planner_screen.dart';
 
 class AppShell extends StatefulWidget {
   final LocaleController localeController;
+  final ExperienceRepository homeExperienceRepository;
 
-  const AppShell({required this.localeController, super.key});
+  const AppShell({
+    required this.localeController,
+    this.homeExperienceRepository = const ExperienceRepository(),
+    super.key,
+  });
 
   @override
   State<AppShell> createState() => _AppShellState();
 }
 
 class _AppShellState extends State<AppShell> {
+  static const int exploreTabIndex = 1;
   static const int destinationsTabIndex = 2;
   static const int planTabIndex = 3;
 
@@ -37,7 +44,9 @@ class _AppShellState extends State<AppShell> {
   Widget build(BuildContext context) {
     final List<Widget> pages = <Widget>[
       HomeScreen(
+        experienceRepository: widget.homeExperienceRepository,
         onExploreDestinations: () => _selectTab(destinationsTabIndex),
+        onExploreExperiences: () => _selectTab(exploreTabIndex),
         onPlanTrip: () => _selectTab(planTabIndex),
       ),
       const ExploreScreen(),
