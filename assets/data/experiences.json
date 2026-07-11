@@ -1,0 +1,74 @@
+[
+  {
+    "id": "heritage",
+    "titleAr": "التراث والحضارات",
+    "titleEn": "Heritage & Civilizations",
+    "descriptionAr": "اكتشف المواقع الأثرية والمدن التاريخية التي تحكي تعاقب الحضارات في ليبيا.",
+    "descriptionEn": "Discover archaeological sites and historic cities that reveal Libya's layers of civilization.",
+    "icon": "museum",
+    "image": ""
+  },
+  {
+    "id": "desert",
+    "titleAr": "الصحراء والمغامرة",
+    "titleEn": "Desert & Adventure",
+    "descriptionAr": "استكشف الكثبان والتكوينات الصخرية وتجارب المغامرة في الصحراء الليبية.",
+    "descriptionEn": "Explore dunes, rock formations, and responsible adventures across Libya's desert.",
+    "icon": "landscape",
+    "image": ""
+  },
+  {
+    "id": "coast",
+    "titleAr": "الساحل والبحر",
+    "titleEn": "Coast & Sea",
+    "descriptionAr": "تعرّف على الشواطئ والمدن الساحلية والتجارب البحرية على امتداد المتوسط.",
+    "descriptionEn": "Discover beaches, coastal cities, and Mediterranean experiences along Libya's shoreline.",
+    "icon": "waves",
+    "image": ""
+  },
+  {
+    "id": "nature",
+    "titleAr": "الطبيعة والجبال",
+    "titleEn": "Nature & Mountains",
+    "descriptionAr": "استمتع بالمرتفعات والواحات والمشاهد الطبيعية المتنوعة في أنحاء ليبيا.",
+    "descriptionEn": "Experience highlands, oases, and diverse natural landscapes across Libya.",
+    "icon": "forest",
+    "image": ""
+  },
+  {
+    "id": "culture",
+    "titleAr": "الثقافة والمجتمع",
+    "titleEn": "Culture & Community",
+    "descriptionAr": "اقترب من الحرف والعادات والمجتمعات التي تشكّل الهوية الليبية.",
+    "descriptionEn": "Connect with the crafts, traditions, and communities that shape Libyan identity.",
+    "icon": "groups",
+    "image": ""
+  },
+  {
+    "id": "food",
+    "titleAr": "الطعام والمذاق المحلي",
+    "titleEn": "Food & Local Taste",
+    "descriptionAr": "تذوّق الأطباق المحلية واكتشف المكونات وأساليب الضيافة الليبية.",
+    "descriptionEn": "Taste local dishes and discover the ingredients and hospitality traditions of Libya.",
+    "icon": "restaurant",
+    "image": ""
+  },
+  {
+    "id": "festivals",
+    "titleAr": "المهرجانات والفعاليات",
+    "titleEn": "Festivals & Events",
+    "descriptionAr": "تابع المهرجانات والفعاليات التي تحتفي بالتراث والفنون والحياة المحلية.",
+    "descriptionEn": "Explore festivals and events celebrating heritage, arts, and local life.",
+    "icon": "celebration",
+    "image": ""
+  },
+  {
+    "id": "routes",
+    "titleAr": "المسارات السياحية",
+    "titleEn": "Tourist Routes",
+    "descriptionAr": "خطط لمسارات تربط الوجهات والمعالم في رحلات مترابطة عبر ليبيا.",
+    "descriptionEn": "Plan connected journeys linking destinations and landmarks across Libya.",
+    "icon": "route",
+    "image": ""
+  }
+]
