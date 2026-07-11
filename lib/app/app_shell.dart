@@ -18,6 +18,7 @@ class AppShell extends StatefulWidget {
 }
 
 class _AppShellState extends State<AppShell> {
+  static const int destinationsTabIndex = 2;
   static const int planTabIndex = 3;
 
   int _selectedIndex = 0;
@@ -35,7 +36,10 @@ class _AppShellState extends State<AppShell> {
   @override
   Widget build(BuildContext context) {
     final List<Widget> pages = <Widget>[
-      const HomeScreen(),
+      HomeScreen(
+        onExploreDestinations: () => _selectTab(destinationsTabIndex),
+        onPlanTrip: () => _selectTab(planTabIndex),
+      ),
       const ExploreScreen(),
       DestinationsScreen(onPlanTrip: () => _selectTab(planTabIndex)),
       const TripPlannerScreen(),

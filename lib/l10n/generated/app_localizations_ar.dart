@@ -48,7 +48,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get discoverLibya => 'اكتشف ليبيا';
 
   @override
-  String get heroSubtitle => 'حضارات عريقة، طبيعة متنوعة، وتجارب لا تُنسى.';
+  String get heroSubtitle => 'حضارات عريقة، طبيعة متنوعة، وتجارب لا تُنسى';
 
   @override
   String get exploreDestinations => 'استكشف الوجهات';
