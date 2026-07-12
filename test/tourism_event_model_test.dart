@@ -46,6 +46,66 @@ void main() {
     expect(undated.status, TourismEventStatus.underReview);
   });
 
+  test('parses all tourism event category values', () {
+    const Map<String, TourismEventCategory> categories =
+        <String, TourismEventCategory>{
+          'international': TourismEventCategory.international,
+          'national': TourismEventCategory.national,
+          'festival': TourismEventCategory.festival,
+          'seasonal': TourismEventCategory.seasonal,
+          'nominationAward': TourismEventCategory.nominationAward,
+        };
+
+    for (final MapEntry<String, TourismEventCategory> entry
+        in categories.entries) {
+      final TourismEvent event = TourismEvent.fromJson(
+        _datedEventJson()..['category'] = entry.key,
+      );
+
+      expect(event.category, entry.value);
+    }
+  });
+
+  test('parses all tourism event status values', () {
+    const Map<String, TourismEventStatus> statuses =
+        <String, TourismEventStatus>{
+          'provisional': TourismEventStatus.provisional,
+          'announced': TourismEventStatus.announced,
+          'ongoing': TourismEventStatus.ongoing,
+          'completed': TourismEventStatus.completed,
+          'underReview': TourismEventStatus.underReview,
+          'cancelled': TourismEventStatus.cancelled,
+        };
+
+    for (final MapEntry<String, TourismEventStatus> entry in statuses.entries) {
+      final TourismEvent event = TourismEvent.fromJson(
+        _datedEventJson()..['status'] = entry.key,
+      );
+
+      expect(event.status, entry.value);
+    }
+  });
+
+  test('rejects datetime values', () {
+    expect(
+      () => TourismEvent.fromJson(
+        _datedEventJson()..['startDate'] = '2027-01-07T10:00:00',
+      ),
+      throwsA(isA<FormatException>()),
+    );
+  });
+
+  test('accepts a same-day date range', () {
+    final TourismEvent event = TourismEvent.fromJson(
+      _datedEventJson()
+        ..['startDate'] = '2027-01-07'
+        ..['endDate'] = '2027-01-07',
+    );
+
+    expect(event.startDate, DateTime(2027, 1, 7));
+    expect(event.endDate, DateTime(2027, 1, 7));
+  });
+
   test('rejects missing required strings and invalid boolean fields', () {
     const List<String> requiredStrings = <String>[
       'id',

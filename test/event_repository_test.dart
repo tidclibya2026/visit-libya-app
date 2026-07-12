@@ -62,6 +62,21 @@ void main() {
     await expectLater(repository.loadEvents(), throwsA(isA<FormatException>()));
   });
 
+  test('rejects non-object array records', () async {
+    final EventRepository repository = EventRepository(
+      assetBundle: _JsonAssetBundle(jsonEncode(<Object>[42])),
+    );
+
+    await expectLater(repository.loadEvents(), throwsA(isA<FormatException>()));
+  });
+
+  test('returns an unmodifiable event list', () async {
+    const EventRepository repository = EventRepository();
+    final List<TourismEvent> events = await repository.loadEvents();
+
+    expect(() => events.add(events.first), throwsA(isA<UnsupportedError>()));
+  });
+
   test('rejects a non-array JSON root', () async {
     final EventRepository repository = EventRepository(
       assetBundle: _JsonAssetBundle('{}'),
