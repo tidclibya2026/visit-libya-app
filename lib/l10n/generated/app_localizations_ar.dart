@@ -66,6 +66,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get eventsAndHighlights => 'الأحداث والفعاليات';
 
   @override
+  String get majorEventsAndHighlights => 'أحداث وفعاليات بارزة';
+
+  @override
   String get eventCategoryInternational => 'دولي';
 
   @override

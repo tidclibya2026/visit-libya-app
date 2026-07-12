@@ -67,6 +67,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get eventsAndHighlights => 'Events & Highlights';
 
   @override
+  String get majorEventsAndHighlights => 'Major Events & Highlights';
+
+  @override
   String get eventCategoryInternational => 'International';
 
   @override

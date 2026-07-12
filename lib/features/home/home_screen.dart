@@ -6,14 +6,17 @@ import '../../core/theme/app_radius.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../data/models/destination.dart';
 import '../../data/repositories/destination_repository.dart';
+import '../../data/repositories/event_repository.dart';
 import '../../data/repositories/experience_repository.dart';
 import '../../shared/widgets/image_fallback.dart';
 import '../destinations/destination_detail_screen.dart';
 import 'widgets/explore_by_experience_section.dart';
+import 'widgets/events_highlights_section.dart';
 
 class HomeScreen extends StatefulWidget {
   final DestinationRepository repository;
   final ExperienceRepository experienceRepository;
+  final EventRepository eventRepository;
   final VoidCallback onExploreDestinations;
   final VoidCallback onExploreExperiences;
   final VoidCallback onPlanTrip;
@@ -24,6 +27,7 @@ class HomeScreen extends StatefulWidget {
     required this.onPlanTrip,
     this.repository = const DestinationRepository(),
     this.experienceRepository = const ExperienceRepository(),
+    this.eventRepository = const EventRepository(),
     super.key,
   });
 
@@ -111,6 +115,20 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: ExploreByExperienceSection(
                     repository: widget.experienceRepository,
                     onExplore: widget.onExploreExperiences,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: AppSpacing.xxxl),
+            Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 1120),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: AppSpacing.xl,
+                  ),
+                  child: EventsHighlightsSection(
+                    repository: widget.eventRepository,
                   ),
                 ),
               ),

@@ -212,6 +212,12 @@ abstract class AppLocalizations {
   /// **'Events & Highlights'**
   String get eventsAndHighlights;
 
+  /// No description provided for @majorEventsAndHighlights.
+  ///
+  /// In en, this message translates to:
+  /// **'Major Events & Highlights'**
+  String get majorEventsAndHighlights;
+
   /// No description provided for @eventCategoryInternational.
   ///
   /// In en, this message translates to:

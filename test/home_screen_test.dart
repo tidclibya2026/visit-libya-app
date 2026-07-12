@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:visit_libya_app/app/app.dart';
 import 'package:visit_libya_app/data/repositories/destination_repository.dart';
+import 'package:visit_libya_app/data/repositories/event_repository.dart';
 import 'package:visit_libya_app/data/repositories/experience_repository.dart';
 import 'package:visit_libya_app/features/destinations/destination_detail_screen.dart';
 import 'package:visit_libya_app/features/home/home_screen.dart';
@@ -186,6 +187,9 @@ Widget _testApp({
       experienceRepository: ExperienceRepository(
         assetBundle: _TrackingAssetBundle(_testExperienceJson()),
       ),
+      eventRepository: EventRepository(
+        assetBundle: _TrackingAssetBundle(_testEventsJson()),
+      ),
       onExploreDestinations: onExploreDestinations ?? () {},
       onExploreExperiences: () {},
       onPlanTrip: onPlanTrip ?? () {},
@@ -217,6 +221,30 @@ String _testExperienceJson() {
       'descriptionEn': 'Discover Libya history.',
       'icon': 'museum',
       'image': '',
+    },
+  ]);
+}
+
+String _testEventsJson() {
+  return jsonEncode(<Map<String, dynamic>>[
+    <String, dynamic>{
+      'id': 'test-event',
+      'category': 'international',
+      'status': 'provisional',
+      'titleAr': 'فعالية تجريبية',
+      'titleEn': 'Test Event',
+      'summaryAr': 'ملخص الفعالية',
+      'summaryEn': 'Event summary',
+      'descriptionAr': 'وصف الفعالية',
+      'descriptionEn': 'Event description',
+      'locationAr': 'طرابلس، ليبيا',
+      'locationEn': 'Tripoli, Libya',
+      'startDate': null,
+      'endDate': null,
+      'featured': true,
+      'image': '',
+      'officialUrl': '',
+      'requiresOfficialVerification': true,
     },
   ]);
 }
