@@ -67,6 +67,50 @@ class AppLocalizationsEn extends AppLocalizations {
   String get eventsAndHighlights => 'Events & Highlights';
 
   @override
+  String get eventCategoryInternational => 'International';
+
+  @override
+  String get eventCategoryNational => 'National';
+
+  @override
+  String get eventCategoryFestival => 'Festival';
+
+  @override
+  String get eventCategorySeasonal => 'Seasonal';
+
+  @override
+  String get eventCategoryNominationAward => 'Nomination or Award';
+
+  @override
+  String get eventStatusProvisional => 'Provisional';
+
+  @override
+  String get eventStatusAnnounced => 'Announced';
+
+  @override
+  String get eventStatusOngoing => 'Ongoing';
+
+  @override
+  String get eventStatusCompleted => 'Completed';
+
+  @override
+  String get eventStatusUnderReview => 'Under Review';
+
+  @override
+  String get eventStatusCancelled => 'Cancelled';
+
+  @override
+  String get eventDateToBeConfirmed => 'Date to be confirmed';
+
+  @override
+  String get eventOfficialVerificationRequired =>
+      'Official verification required';
+
+  @override
+  String get eventOfficialVerificationNotice =>
+      'This information is provisional. Verify it with the relevant official authorities before relying on it or planning travel.';
+
+  @override
   String get visualGallery => 'Visual Gallery';
 
   @override

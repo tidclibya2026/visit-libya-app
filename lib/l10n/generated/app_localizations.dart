@@ -212,6 +212,90 @@ abstract class AppLocalizations {
   /// **'Events & Highlights'**
   String get eventsAndHighlights;
 
+  /// No description provided for @eventCategoryInternational.
+  ///
+  /// In en, this message translates to:
+  /// **'International'**
+  String get eventCategoryInternational;
+
+  /// No description provided for @eventCategoryNational.
+  ///
+  /// In en, this message translates to:
+  /// **'National'**
+  String get eventCategoryNational;
+
+  /// No description provided for @eventCategoryFestival.
+  ///
+  /// In en, this message translates to:
+  /// **'Festival'**
+  String get eventCategoryFestival;
+
+  /// No description provided for @eventCategorySeasonal.
+  ///
+  /// In en, this message translates to:
+  /// **'Seasonal'**
+  String get eventCategorySeasonal;
+
+  /// No description provided for @eventCategoryNominationAward.
+  ///
+  /// In en, this message translates to:
+  /// **'Nomination or Award'**
+  String get eventCategoryNominationAward;
+
+  /// No description provided for @eventStatusProvisional.
+  ///
+  /// In en, this message translates to:
+  /// **'Provisional'**
+  String get eventStatusProvisional;
+
+  /// No description provided for @eventStatusAnnounced.
+  ///
+  /// In en, this message translates to:
+  /// **'Announced'**
+  String get eventStatusAnnounced;
+
+  /// No description provided for @eventStatusOngoing.
+  ///
+  /// In en, this message translates to:
+  /// **'Ongoing'**
+  String get eventStatusOngoing;
+
+  /// No description provided for @eventStatusCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get eventStatusCompleted;
+
+  /// No description provided for @eventStatusUnderReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Under Review'**
+  String get eventStatusUnderReview;
+
+  /// No description provided for @eventStatusCancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancelled'**
+  String get eventStatusCancelled;
+
+  /// No description provided for @eventDateToBeConfirmed.
+  ///
+  /// In en, this message translates to:
+  /// **'Date to be confirmed'**
+  String get eventDateToBeConfirmed;
+
+  /// No description provided for @eventOfficialVerificationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Official verification required'**
+  String get eventOfficialVerificationRequired;
+
+  /// No description provided for @eventOfficialVerificationNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'This information is provisional. Verify it with the relevant official authorities before relying on it or planning travel.'**
+  String get eventOfficialVerificationNotice;
+
   /// No description provided for @visualGallery.
   ///
   /// In en, this message translates to:

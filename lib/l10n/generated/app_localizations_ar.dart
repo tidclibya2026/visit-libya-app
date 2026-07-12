@@ -66,6 +66,49 @@ class AppLocalizationsAr extends AppLocalizations {
   String get eventsAndHighlights => 'الأحداث والفعاليات';
 
   @override
+  String get eventCategoryInternational => 'دولي';
+
+  @override
+  String get eventCategoryNational => 'وطني';
+
+  @override
+  String get eventCategoryFestival => 'مهرجان';
+
+  @override
+  String get eventCategorySeasonal => 'موسمي';
+
+  @override
+  String get eventCategoryNominationAward => 'ترشيح أو جائزة';
+
+  @override
+  String get eventStatusProvisional => 'أولي';
+
+  @override
+  String get eventStatusAnnounced => 'معلن';
+
+  @override
+  String get eventStatusOngoing => 'جارٍ';
+
+  @override
+  String get eventStatusCompleted => 'مكتمل';
+
+  @override
+  String get eventStatusUnderReview => 'قيد المراجعة';
+
+  @override
+  String get eventStatusCancelled => 'ملغى';
+
+  @override
+  String get eventDateToBeConfirmed => 'الموعد قيد التأكيد';
+
+  @override
+  String get eventOfficialVerificationRequired => 'يتطلب التحقق الرسمي';
+
+  @override
+  String get eventOfficialVerificationNotice =>
+      'هذه المعلومات أولية. تحقق من الجهات الرسمية المختصة قبل الاعتماد عليها أو التخطيط للسفر.';
+
+  @override
   String get visualGallery => 'معرض الصور';
 
   @override
