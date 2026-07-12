@@ -1,0 +1,40 @@
+[
+  {
+    "id": "libya-2027-rcme53",
+    "category": "international",
+    "status": "provisional",
+    "titleAr": "الاجتماع الثالث والخمسون للجنة الإقليمية للشرق الأوسط",
+    "titleEn": "53rd Meeting of the Regional Commission for the Middle East",
+    "summaryAr": "حدث سياحي دولي مخطط لاستضافته في طرابلس ضمن برنامج ليبيا 2027.",
+    "summaryEn": "A planned international tourism event in Tripoli under the Libya 2027 programme.",
+    "descriptionAr": "بيانات هذه الفعالية أولية وتخضع للتأكيد والتحديث من الجهات الرسمية المختصة.",
+    "descriptionEn": "This event information is provisional and subject to confirmation and updates by the relevant official authorities.",
+    "locationAr": "طرابلس، ليبيا",
+    "locationEn": "Tripoli, Libya",
+    "startDate": "2027-01-07",
+    "endDate": "2027-01-10",
+    "featured": true,
+    "image": "",
+    "officialUrl": "",
+    "requiresOfficialVerification": true
+  },
+  {
+    "id": "tripoli-islamic-tourism-capital-candidacy",
+    "category": "nominationAward",
+    "status": "underReview",
+    "titleAr": "ترشيح طرابلس لعاصمة السياحة الإسلامية",
+    "titleEn": "Tripoli Candidacy for Islamic Tourism Capital",
+    "summaryAr": "ملف ترشيح يبرز المقومات التاريخية والثقافية والسياحية لمدينة طرابلس.",
+    "summaryEn": "A candidacy initiative highlighting Tripoli’s historical, cultural, and tourism assets.",
+    "descriptionAr": "حالة الترشيح ونتيجته وأي مواعيد مرتبطة به تتطلب التحقق من الجهات الرسمية المختصة.",
+    "descriptionEn": "The candidacy status, result, and any related dates require verification with the relevant official authorities.",
+    "locationAr": "طرابلس، ليبيا",
+    "locationEn": "Tripoli, Libya",
+    "startDate": null,
+    "endDate": null,
+    "featured": true,
+    "image": "",
+    "officialUrl": "",
+    "requiresOfficialVerification": true
+  }
+]
