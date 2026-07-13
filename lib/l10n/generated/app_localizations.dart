@@ -194,6 +194,18 @@ abstract class AppLocalizations {
   /// **'Plan Your Trip'**
   String get planYourTrip;
 
+  /// No description provided for @planYourTripHomeDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a suggested itinerary based on your trip duration, interests, and travel style.'**
+  String get planYourTripHomeDescription;
+
+  /// No description provided for @startPlanning.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Planning'**
+  String get startPlanning;
+
   /// No description provided for @featuredDestinations.
   ///
   /// In en, this message translates to:

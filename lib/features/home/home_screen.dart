@@ -12,6 +12,7 @@ import '../../shared/widgets/image_fallback.dart';
 import '../destinations/destination_detail_screen.dart';
 import 'widgets/explore_by_experience_section.dart';
 import 'widgets/events_highlights_section.dart';
+import 'widgets/plan_your_trip_section.dart';
 
 class HomeScreen extends StatefulWidget {
   final DestinationRepository repository;
@@ -129,6 +130,20 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: EventsHighlightsSection(
                     repository: widget.eventRepository,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: AppSpacing.xxxl),
+            Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 1120),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: AppSpacing.xl,
+                  ),
+                  child: PlanYourTripSection(
+                    onStartPlanning: widget.onPlanTrip,
                   ),
                 ),
               ),

@@ -232,22 +232,22 @@ void main() {
     await tester.tap(find.byKey(const Key('homeHeroExploreButton')));
     await tester.tap(find.byKey(const Key('homeHeroPlanButton')));
 
-    final Finder homeList = find
+    final Finder homeScrollable = find
         .descendant(
           of: find.byType(HomeScreen),
-          matching: find.byType(ListView),
+          matching: find.byType(Scrollable),
         )
         .first;
-    await tester.drag(homeList, const Offset(0, -1000));
+    final Finder experienceCard = find.byKey(
+      const Key('experienceCard-heritage'),
+    );
+    await tester.scrollUntilVisible(
+      experienceCard,
+      400,
+      scrollable: homeScrollable,
+    );
     await tester.pumpAndSettle();
-    await _pumpUntilFound(
-      tester,
-      find.byKey(const Key('experienceCard-heritage')),
-    );
-    await tester.ensureVisible(
-      find.byKey(const Key('experienceCard-heritage')),
-    );
-    await tester.tap(find.byKey(const Key('experienceCard-heritage')));
+    await tester.tap(experienceCard);
 
     expect(destinationRequests, 1);
     expect(planRequests, 1);
@@ -304,13 +304,6 @@ void _useNarrowView(WidgetTester tester) {
     tester.view.resetDevicePixelRatio();
     tester.view.resetPhysicalSize();
   });
-}
-
-Future<void> _pumpUntilFound(WidgetTester tester, Finder finder) async {
-  for (int attempt = 0; attempt < 30 && finder.evaluate().isEmpty; attempt++) {
-    await tester.pump(const Duration(milliseconds: 100));
-  }
-  expect(finder, findsOneWidget);
 }
 
 String _eventsJson() {

@@ -58,6 +58,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get planYourTrip => 'Plan Your Trip';
 
   @override
+  String get planYourTripHomeDescription =>
+      'Create a suggested itinerary based on your trip duration, interests, and travel style.';
+
+  @override
+  String get startPlanning => 'Start Planning';
+
+  @override
   String get featuredDestinations => 'Featured Destinations';
 
   @override

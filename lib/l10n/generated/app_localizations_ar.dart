@@ -57,6 +57,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get planYourTrip => 'خطط رحلتك';
 
   @override
+  String get planYourTripHomeDescription =>
+      'أنشئ برنامجًا سياحيًا مقترحًا يناسب مدة رحلتك واهتماماتك وأسلوب سفرك.';
+
+  @override
+  String get startPlanning => 'ابدأ التخطيط';
+
+  @override
   String get featuredDestinations => 'وجهات مميزة';
 
   @override
