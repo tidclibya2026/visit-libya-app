@@ -214,6 +214,98 @@ class AppLocalizationsEn extends AppLocalizations {
   String get suggestedTrip => 'Suggested Trip';
 
   @override
+  String get tripPlannerDescription =>
+      'Choose your destination, duration, and interests to create a suggested itinerary.';
+
+  @override
+  String get createItinerary => 'Create Itinerary';
+
+  @override
+  String get destinationFieldLabel => 'Destination';
+
+  @override
+  String get selectDestination => 'Select a destination';
+
+  @override
+  String get destinationRequired => 'Select a destination to continue.';
+
+  @override
+  String get interestsRequired => 'Select at least one interest.';
+
+  @override
+  String get tripResultTitle => 'Your Suggested Itinerary';
+
+  @override
+  String get itinerary => 'Itinerary';
+
+  @override
+  String get dayFocus => 'Day Focus';
+
+  @override
+  String get dailyActivities => 'Activities';
+
+  @override
+  String get suggestedExperiences => 'Suggested Experiences';
+
+  @override
+  String get preparationNotes => 'Preparation Notes';
+
+  @override
+  String get editPreferences => 'Edit Preferences';
+
+  @override
+  String tripDurationDays(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count days',
+      one: '1 day',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String tripDayTitle(int number) {
+    return 'Day $number';
+  }
+
+  @override
+  String get slotMorning => 'Morning';
+
+  @override
+  String get slotMidday => 'Midday';
+
+  @override
+  String get slotAfternoon => 'Afternoon';
+
+  @override
+  String get slotEvening => 'Evening';
+
+  @override
+  String get preparationGeneral =>
+      'Confirm opening hours, weather, and local guidance before each day.';
+
+  @override
+  String get preparationSoloSafety =>
+      'Share your daily route and keep reliable local contacts available.';
+
+  @override
+  String get preparationCouplePacing =>
+      'Keep the schedule flexible enough for shared breaks and preferences.';
+
+  @override
+  String get preparationFamilyComfort =>
+      'Plan regular breaks and confirm family-friendly access in advance.';
+
+  @override
+  String get preparationFriendsCoordination =>
+      'Agree on meeting points and daily timing with everyone.';
+
+  @override
+  String get preparationGroupLogistics =>
+      'Confirm transport capacity, reservations, and group meeting points.';
+
+  @override
   String get heritage => 'Heritage';
 
   @override

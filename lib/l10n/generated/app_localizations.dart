@@ -500,6 +500,156 @@ abstract class AppLocalizations {
   /// **'Suggested Trip'**
   String get suggestedTrip;
 
+  /// No description provided for @tripPlannerDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your destination, duration, and interests to create a suggested itinerary.'**
+  String get tripPlannerDescription;
+
+  /// No description provided for @createItinerary.
+  ///
+  /// In en, this message translates to:
+  /// **'Create Itinerary'**
+  String get createItinerary;
+
+  /// No description provided for @destinationFieldLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination'**
+  String get destinationFieldLabel;
+
+  /// No description provided for @selectDestination.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a destination'**
+  String get selectDestination;
+
+  /// No description provided for @destinationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a destination to continue.'**
+  String get destinationRequired;
+
+  /// No description provided for @interestsRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Select at least one interest.'**
+  String get interestsRequired;
+
+  /// No description provided for @tripResultTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Suggested Itinerary'**
+  String get tripResultTitle;
+
+  /// No description provided for @itinerary.
+  ///
+  /// In en, this message translates to:
+  /// **'Itinerary'**
+  String get itinerary;
+
+  /// No description provided for @dayFocus.
+  ///
+  /// In en, this message translates to:
+  /// **'Day Focus'**
+  String get dayFocus;
+
+  /// No description provided for @dailyActivities.
+  ///
+  /// In en, this message translates to:
+  /// **'Activities'**
+  String get dailyActivities;
+
+  /// No description provided for @suggestedExperiences.
+  ///
+  /// In en, this message translates to:
+  /// **'Suggested Experiences'**
+  String get suggestedExperiences;
+
+  /// No description provided for @preparationNotes.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparation Notes'**
+  String get preparationNotes;
+
+  /// No description provided for @editPreferences.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Preferences'**
+  String get editPreferences;
+
+  /// No description provided for @tripDurationDays.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 day} other{{count} days}}'**
+  String tripDurationDays(int count);
+
+  /// No description provided for @tripDayTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Day {number}'**
+  String tripDayTitle(int number);
+
+  /// No description provided for @slotMorning.
+  ///
+  /// In en, this message translates to:
+  /// **'Morning'**
+  String get slotMorning;
+
+  /// No description provided for @slotMidday.
+  ///
+  /// In en, this message translates to:
+  /// **'Midday'**
+  String get slotMidday;
+
+  /// No description provided for @slotAfternoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Afternoon'**
+  String get slotAfternoon;
+
+  /// No description provided for @slotEvening.
+  ///
+  /// In en, this message translates to:
+  /// **'Evening'**
+  String get slotEvening;
+
+  /// No description provided for @preparationGeneral.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm opening hours, weather, and local guidance before each day.'**
+  String get preparationGeneral;
+
+  /// No description provided for @preparationSoloSafety.
+  ///
+  /// In en, this message translates to:
+  /// **'Share your daily route and keep reliable local contacts available.'**
+  String get preparationSoloSafety;
+
+  /// No description provided for @preparationCouplePacing.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep the schedule flexible enough for shared breaks and preferences.'**
+  String get preparationCouplePacing;
+
+  /// No description provided for @preparationFamilyComfort.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan regular breaks and confirm family-friendly access in advance.'**
+  String get preparationFamilyComfort;
+
+  /// No description provided for @preparationFriendsCoordination.
+  ///
+  /// In en, this message translates to:
+  /// **'Agree on meeting points and daily timing with everyone.'**
+  String get preparationFriendsCoordination;
+
+  /// No description provided for @preparationGroupLogistics.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm transport capacity, reservations, and group meeting points.'**
+  String get preparationGroupLogistics;
+
   /// No description provided for @heritage.
   ///
   /// In en, this message translates to:

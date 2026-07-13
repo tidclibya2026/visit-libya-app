@@ -212,6 +212,99 @@ class AppLocalizationsAr extends AppLocalizations {
   String get suggestedTrip => 'الرحلة المقترحة';
 
   @override
+  String get tripPlannerDescription =>
+      'اختر وجهتك ومدة الرحلة واهتماماتك لإنشاء برنامج سياحي مقترح.';
+
+  @override
+  String get createItinerary => 'أنشئ البرنامج';
+
+  @override
+  String get destinationFieldLabel => 'الوجهة';
+
+  @override
+  String get selectDestination => 'اختر وجهة';
+
+  @override
+  String get destinationRequired => 'اختر وجهة للمتابعة.';
+
+  @override
+  String get interestsRequired => 'اختر اهتمامًا واحدًا على الأقل.';
+
+  @override
+  String get tripResultTitle => 'برنامج رحلتك المقترح';
+
+  @override
+  String get itinerary => 'البرنامج اليومي';
+
+  @override
+  String get dayFocus => 'محور اليوم';
+
+  @override
+  String get dailyActivities => 'الأنشطة';
+
+  @override
+  String get suggestedExperiences => 'التجارب المقترحة';
+
+  @override
+  String get preparationNotes => 'ملاحظات الاستعداد';
+
+  @override
+  String get editPreferences => 'العودة للتعديل';
+
+  @override
+  String tripDurationDays(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count أيام',
+      two: 'يومان',
+      one: 'يوم واحد',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String tripDayTitle(int number) {
+    return 'اليوم $number';
+  }
+
+  @override
+  String get slotMorning => 'الصباح';
+
+  @override
+  String get slotMidday => 'منتصف النهار';
+
+  @override
+  String get slotAfternoon => 'بعد الظهر';
+
+  @override
+  String get slotEvening => 'المساء';
+
+  @override
+  String get preparationGeneral =>
+      'تحقق من مواعيد العمل والطقس والإرشادات المحلية قبل كل يوم.';
+
+  @override
+  String get preparationSoloSafety =>
+      'شارك مسارك اليومي واحتفظ بجهات اتصال محلية موثوقة.';
+
+  @override
+  String get preparationCouplePacing =>
+      'حافظ على مرونة البرنامج بما يناسب فترات الراحة والتفضيلات المشتركة.';
+
+  @override
+  String get preparationFamilyComfort =>
+      'خطط لفترات راحة منتظمة وتحقق مسبقًا من ملاءمة المواقع للعائلات.';
+
+  @override
+  String get preparationFriendsCoordination =>
+      'اتفقوا على نقاط الالتقاء والتوقيت اليومي مع الجميع.';
+
+  @override
+  String get preparationGroupLogistics =>
+      'تحقق من سعة النقل والحجوزات ونقاط تجمع المجموعة.';
+
+  @override
   String get heritage => 'التراث';
 
   @override

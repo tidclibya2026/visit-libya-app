@@ -84,6 +84,41 @@
   "groupType": "Group Type",
   "generateTrip": "Generate Trip",
   "suggestedTrip": "Suggested Trip",
+  "tripPlannerDescription": "Choose your destination, duration, and interests to create a suggested itinerary.",
+  "createItinerary": "Create Itinerary",
+  "destinationFieldLabel": "Destination",
+  "selectDestination": "Select a destination",
+  "destinationRequired": "Select a destination to continue.",
+  "interestsRequired": "Select at least one interest.",
+  "tripResultTitle": "Your Suggested Itinerary",
+  "itinerary": "Itinerary",
+  "dayFocus": "Day Focus",
+  "dailyActivities": "Activities",
+  "suggestedExperiences": "Suggested Experiences",
+  "preparationNotes": "Preparation Notes",
+  "editPreferences": "Edit Preferences",
+  "tripDurationDays": "{count, plural, =1{1 day} other{{count} days}}",
+  "@tripDurationDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "tripDayTitle": "Day {number}",
+  "@tripDayTitle": {
+    "placeholders": {
+      "number": {"type": "int"}
+    }
+  },
+  "slotMorning": "Morning",
+  "slotMidday": "Midday",
+  "slotAfternoon": "Afternoon",
+  "slotEvening": "Evening",
+  "preparationGeneral": "Confirm opening hours, weather, and local guidance before each day.",
+  "preparationSoloSafety": "Share your daily route and keep reliable local contacts available.",
+  "preparationCouplePacing": "Keep the schedule flexible enough for shared breaks and preferences.",
+  "preparationFamilyComfort": "Plan regular breaks and confirm family-friendly access in advance.",
+  "preparationFriendsCoordination": "Agree on meeting points and daily timing with everyone.",
+  "preparationGroupLogistics": "Confirm transport capacity, reservations, and group meeting points.",
 
   "heritage": "Heritage",
   "archaeology": "Archaeology",
