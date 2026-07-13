@@ -3,13 +3,22 @@ import 'package:flutter/material.dart';
 import '../../core/localization/l10n_extension.dart';
 import '../../core/localization/locale_controller.dart';
 import '../../core/theme/app_spacing.dart';
+import '../../data/repositories/guide_repository.dart';
 import '../events/events_screen.dart';
 import '../routes/routes_screen.dart';
+import '../smart_guide/smart_guide_screen.dart';
 
 class MoreScreen extends StatelessWidget {
   final LocaleController localeController;
+  final GuideRepository smartGuideRepository;
+  final ValueChanged<int>? onSelectTab;
 
-  const MoreScreen({required this.localeController, super.key});
+  const MoreScreen({
+    required this.localeController,
+    this.smartGuideRepository = const GuideRepository(),
+    this.onSelectTab,
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -53,6 +62,27 @@ class MoreScreen extends StatelessWidget {
               onTap: () {
                 Navigator.of(context).push<void>(
                   MaterialPageRoute<void>(builder: (_) => const RoutesScreen()),
+                );
+              },
+            ),
+          ),
+          Card(
+            child: ListTile(
+              key: const Key('moreSmartGuideTile'),
+              leading: const Icon(Icons.assistant_outlined),
+              title: Text(context.l10n.smartGuide),
+              trailing: const Icon(Icons.chevron_right_rounded),
+              onTap: () {
+                Navigator.of(context).push<void>(
+                  MaterialPageRoute<void>(
+                    builder: (_) => SmartGuideScreen(
+                      repository: smartGuideRepository,
+                      onSelectTab: (int index) {
+                        Navigator.of(context).pop();
+                        onSelectTab?.call(index);
+                      },
+                    ),
+                  ),
                 );
               },
             ),

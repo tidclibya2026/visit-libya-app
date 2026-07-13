@@ -128,6 +128,31 @@ class AppLocalizationsAr extends AppLocalizations {
   String get smartGuideBeta => 'الدليل الذكي — تجريبي';
 
   @override
+  String get smartGuideDescription =>
+      'دليل محلي يساعدك في الوصول إلى الوجهات والتجارب والخدمات المتاحة داخل التطبيق.';
+
+  @override
+  String get smartGuideInputHint =>
+      'اسأل عن الوجهات أو التجارب أو الفعاليات أو التخطيط';
+
+  @override
+  String get smartGuideAsk => 'اسأل الدليل';
+
+  @override
+  String get smartGuideQuickPrompts => 'أسئلة سريعة';
+
+  @override
+  String get smartGuideLocalBetaNotice =>
+      'دليل تجريبي. تتم مطابقة الأسئلة محليًا باستخدام محتوى التطبيق المعتمد.';
+
+  @override
+  String get smartGuideNoMatch =>
+      'لم يتم العثور على موضوع مطابق. جرّب أحد الأسئلة السريعة.';
+
+  @override
+  String get smartGuideOpenResult => 'فتح النتيجة';
+
+  @override
   String get touristRoutes => 'المسارات السياحية';
 
   @override

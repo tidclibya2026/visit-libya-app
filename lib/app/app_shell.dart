@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../core/localization/l10n_extension.dart';
 import '../core/localization/locale_controller.dart';
 import '../data/repositories/experience_repository.dart';
+import '../data/repositories/guide_repository.dart';
 import '../features/destinations/destinations_screen.dart';
 import '../features/explore/explore_screen.dart';
 import '../features/home/home_screen.dart';
@@ -12,10 +13,12 @@ import '../features/trip_planner/trip_planner_screen.dart';
 class AppShell extends StatefulWidget {
   final LocaleController localeController;
   final ExperienceRepository homeExperienceRepository;
+  final GuideRepository smartGuideRepository;
 
   const AppShell({
     required this.localeController,
     this.homeExperienceRepository = const ExperienceRepository(),
+    this.smartGuideRepository = const GuideRepository(),
     super.key,
   });
 
@@ -52,7 +55,11 @@ class _AppShellState extends State<AppShell> {
       const ExploreScreen(),
       DestinationsScreen(onPlanTrip: () => _selectTab(planTabIndex)),
       const TripPlannerScreen(),
-      MoreScreen(localeController: widget.localeController),
+      MoreScreen(
+        localeController: widget.localeController,
+        smartGuideRepository: widget.smartGuideRepository,
+        onSelectTab: _selectTab,
+      ),
     ];
 
     return Scaffold(

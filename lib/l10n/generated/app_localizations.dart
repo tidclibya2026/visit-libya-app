@@ -332,6 +332,48 @@ abstract class AppLocalizations {
   /// **'Smart Guide — Beta'**
   String get smartGuideBeta;
 
+  /// No description provided for @smartGuideDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'A local guide that helps you find destinations, experiences, and services available in the app.'**
+  String get smartGuideDescription;
+
+  /// No description provided for @smartGuideInputHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask about destinations, experiences, events, or planning'**
+  String get smartGuideInputHint;
+
+  /// No description provided for @smartGuideAsk.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask Guide'**
+  String get smartGuideAsk;
+
+  /// No description provided for @smartGuideQuickPrompts.
+  ///
+  /// In en, this message translates to:
+  /// **'Quick Prompts'**
+  String get smartGuideQuickPrompts;
+
+  /// No description provided for @smartGuideLocalBetaNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'Beta guide. Matches are processed locally from approved app content.'**
+  String get smartGuideLocalBetaNotice;
+
+  /// No description provided for @smartGuideNoMatch.
+  ///
+  /// In en, this message translates to:
+  /// **'No matching guide topic was found. Try one of the quick prompts.'**
+  String get smartGuideNoMatch;
+
+  /// No description provided for @smartGuideOpenResult.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Result'**
+  String get smartGuideOpenResult;
+
   /// No description provided for @touristRoutes.
   ///
   /// In en, this message translates to:

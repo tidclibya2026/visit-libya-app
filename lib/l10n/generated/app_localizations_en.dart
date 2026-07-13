@@ -130,6 +130,31 @@ class AppLocalizationsEn extends AppLocalizations {
   String get smartGuideBeta => 'Smart Guide — Beta';
 
   @override
+  String get smartGuideDescription =>
+      'A local guide that helps you find destinations, experiences, and services available in the app.';
+
+  @override
+  String get smartGuideInputHint =>
+      'Ask about destinations, experiences, events, or planning';
+
+  @override
+  String get smartGuideAsk => 'Ask Guide';
+
+  @override
+  String get smartGuideQuickPrompts => 'Quick Prompts';
+
+  @override
+  String get smartGuideLocalBetaNotice =>
+      'Beta guide. Matches are processed locally from approved app content.';
+
+  @override
+  String get smartGuideNoMatch =>
+      'No matching guide topic was found. Try one of the quick prompts.';
+
+  @override
+  String get smartGuideOpenResult => 'Open Result';
+
+  @override
   String get touristRoutes => 'Tourist Routes';
 
   @override
