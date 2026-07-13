@@ -4,6 +4,7 @@ import '../../core/localization/l10n_extension.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../data/models/guide_intent.dart';
 import '../../data/repositories/guide_repository.dart';
+import '../before_travel/before_travel_screen.dart';
 import '../events/events_screen.dart';
 import '../routes/routes_screen.dart';
 import 'domain/smart_guide_engine.dart';
@@ -72,7 +73,9 @@ class _SmartGuideScreenState extends State<SmartGuideScreen> {
       GuideActionType.openTab =>
         widget.onSelectTab != null && _tabIndex(intent.actionValue) != null,
       GuideActionType.openScreen =>
-        intent.actionValue == 'events' || intent.actionValue == 'routes',
+        intent.actionValue == 'events' ||
+            intent.actionValue == 'routes' ||
+            intent.actionValue == 'beforeTravel',
       GuideActionType.none => false,
     };
   }
@@ -89,6 +92,7 @@ class _SmartGuideScreenState extends State<SmartGuideScreen> {
         final Widget? screen = switch (intent.actionValue) {
           'events' => const EventsScreen(),
           'routes' => const RoutesScreen(),
+          'beforeTravel' => const BeforeTravelScreen(),
           _ => null,
         };
         if (screen != null) {

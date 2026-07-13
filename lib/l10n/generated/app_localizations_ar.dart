@@ -195,6 +195,20 @@ class AppLocalizationsAr extends AppLocalizations {
   String get beforeTravel => 'قبل السفر';
 
   @override
+  String get beforeTravelIntroduction =>
+      'إرشادات أساسية تساعدك على الاستعداد للرحلة.';
+
+  @override
+  String get beforeTravelOfficialNotice =>
+      'المعلومات الواردة إرشادية وقد تتغير. تحقّق من الجهات الرسمية المختصة قبل السفر أو اتخاذ أي إجراء.';
+
+  @override
+  String get beforeTravelChecklist => 'قائمة التحقق';
+
+  @override
+  String get beforeTravelOfficialVerificationRequired => 'يتطلب التحقق الرسمي';
+
+  @override
   String get heritageAndCivilizations => 'التراث والحضارات';
 
   @override

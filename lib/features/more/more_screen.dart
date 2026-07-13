@@ -4,6 +4,7 @@ import '../../core/localization/l10n_extension.dart';
 import '../../core/localization/locale_controller.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../data/repositories/guide_repository.dart';
+import '../before_travel/before_travel_screen.dart';
 import '../events/events_screen.dart';
 import '../routes/routes_screen.dart';
 import '../smart_guide/smart_guide_screen.dart';
@@ -82,6 +83,21 @@ class MoreScreen extends StatelessWidget {
                         onSelectTab?.call(index);
                       },
                     ),
+                  ),
+                );
+              },
+            ),
+          ),
+          Card(
+            child: ListTile(
+              key: const Key('moreBeforeTravelTile'),
+              leading: const Icon(Icons.fact_check_outlined),
+              title: Text(context.l10n.beforeTravel),
+              trailing: const Icon(Icons.chevron_right_rounded),
+              onTap: () {
+                Navigator.of(context).push<void>(
+                  MaterialPageRoute<void>(
+                    builder: (_) => const BeforeTravelScreen(),
                   ),
                 );
               },

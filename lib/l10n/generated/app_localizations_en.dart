@@ -197,6 +197,21 @@ class AppLocalizationsEn extends AppLocalizations {
   String get beforeTravel => 'Before Travel';
 
   @override
+  String get beforeTravelIntroduction =>
+      'Essential guidance to help you prepare for your trip.';
+
+  @override
+  String get beforeTravelOfficialNotice =>
+      'This information is general guidance and may change. Verify it with the relevant official authorities before travel or taking action.';
+
+  @override
+  String get beforeTravelChecklist => 'Checklist';
+
+  @override
+  String get beforeTravelOfficialVerificationRequired =>
+      'Official verification required';
+
+  @override
   String get heritageAndCivilizations => 'Heritage & Civilizations';
 
   @override

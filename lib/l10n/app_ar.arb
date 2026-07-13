@@ -64,6 +64,10 @@
   "routeFieldVerificationRequired": "يتطلب التحقق الميداني",
   "routeFieldVerificationNotice": "هذا المسار مسودة عمل ويتطلب التحقق الميداني قبل الاعتماد أو التخطيط للسفر.",
   "beforeTravel": "قبل السفر",
+  "beforeTravelIntroduction": "إرشادات أساسية تساعدك على الاستعداد للرحلة.",
+  "beforeTravelOfficialNotice": "المعلومات الواردة إرشادية وقد تتغير. تحقّق من الجهات الرسمية المختصة قبل السفر أو اتخاذ أي إجراء.",
+  "beforeTravelChecklist": "قائمة التحقق",
+  "beforeTravelOfficialVerificationRequired": "يتطلب التحقق الرسمي",
 
   "heritageAndCivilizations": "التراث والحضارات",
   "desertAndAdventure": "الصحراء والمغامرة",

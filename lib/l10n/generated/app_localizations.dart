@@ -452,6 +452,30 @@ abstract class AppLocalizations {
   /// **'Before Travel'**
   String get beforeTravel;
 
+  /// No description provided for @beforeTravelIntroduction.
+  ///
+  /// In en, this message translates to:
+  /// **'Essential guidance to help you prepare for your trip.'**
+  String get beforeTravelIntroduction;
+
+  /// No description provided for @beforeTravelOfficialNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'This information is general guidance and may change. Verify it with the relevant official authorities before travel or taking action.'**
+  String get beforeTravelOfficialNotice;
+
+  /// No description provided for @beforeTravelChecklist.
+  ///
+  /// In en, this message translates to:
+  /// **'Checklist'**
+  String get beforeTravelChecklist;
+
+  /// No description provided for @beforeTravelOfficialVerificationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Official verification required'**
+  String get beforeTravelOfficialVerificationRequired;
+
   /// No description provided for @heritageAndCivilizations.
   ///
   /// In en, this message translates to:

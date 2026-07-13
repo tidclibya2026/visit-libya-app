@@ -1,0 +1,162 @@
+[
+  {
+    "id": "entry-documents",
+    "category": "entryDocuments",
+    "titleAr": "الدخول والوثائق",
+    "titleEn": "Entry and Documents",
+    "summaryAr": "جهّز وثائق السفر وتحقق من المتطلبات الحالية لدى الجهات الرسمية المختصة قبل السفر.",
+    "summaryEn": "Prepare your travel documents and verify current requirements with the relevant official authorities before travel.",
+    "checklistAr": [
+      "تحقق من متطلبات الدخول الحالية لدى الجهات الرسمية المختصة قبل السفر.",
+      "راجع صلاحية وثائق السفر واحتفظ بنسخ آمنة منها.",
+      "تأكد من اكتمال الوثائق المطلوبة قبل المغادرة."
+    ],
+    "checklistEn": [
+      "Verify current entry requirements with the relevant official authorities before travel.",
+      "Check the validity of travel documents and keep secure copies.",
+      "Confirm that required documents are complete before departure."
+    ],
+    "requiresOfficialVerification": true,
+    "enabled": true
+  },
+  {
+    "id": "health",
+    "category": "health",
+    "titleAr": "الصحة والاستعداد",
+    "titleEn": "Health and Preparation",
+    "summaryAr": "راجع احتياجاتك الصحية الشخصية وتحقق من الإرشادات الحالية لدى المصادر الرسمية قبل السفر.",
+    "summaryEn": "Review your personal health needs and check current guidance from official sources before travel.",
+    "checklistAr": [
+      "ناقش احتياجاتك الصحية مع مختص مؤهل قبل السفر عند الحاجة.",
+      "جهّز أدويتك المعتادة ووثائقها وفق المتطلبات التي تتحقق منها مسبقًا.",
+      "راجع الإرشادات الصحية الحالية لدى الجهات الرسمية المختصة."
+    ],
+    "checklistEn": [
+      "Discuss personal health needs with a qualified professional before travel when needed.",
+      "Prepare regular medicines and their documents according to requirements checked in advance.",
+      "Review current health guidance from the relevant official authorities."
+    ],
+    "requiresOfficialVerification": true,
+    "enabled": true
+  },
+  {
+    "id": "safety",
+    "category": "safety",
+    "titleAr": "السلامة والطوارئ",
+    "titleEn": "Safety and Emergencies",
+    "summaryAr": "راجع الإرشادات الرسمية الحالية وخطط للتواصل والتصرف المناسب في الحالات الطارئة.",
+    "summaryEn": "Review current official guidance and plan how to communicate and respond in an emergency.",
+    "checklistAr": [
+      "تحقق من إرشادات السفر الرسمية الحالية قبل المغادرة.",
+      "شارك خطتك مع شخص موثوق واحتفظ بجهات اتصالك المهمة.",
+      "تعرف على إجراءات الطوارئ المحلية من مصادر رسمية عند الوصول."
+    ],
+    "checklistEn": [
+      "Check current official travel guidance before departure.",
+      "Share your plan with a trusted person and keep important contacts available.",
+      "Learn local emergency procedures from official sources after arrival."
+    ],
+    "requiresOfficialVerification": true,
+    "enabled": true
+  },
+  {
+    "id": "money",
+    "category": "money",
+    "titleAr": "الأموال ووسائل الدفع",
+    "titleEn": "Money and Payments",
+    "summaryAr": "خطط لوسائل دفع مناسبة وتحقق من الخيارات المتاحة فعليًا قبل السفر وأثناءه.",
+    "summaryEn": "Plan suitable payment methods and verify which options are actually available before and during travel.",
+    "checklistAr": [
+      "تحقق من وسائل الدفع المقبولة قبل السفر.",
+      "خطط لأكثر من وسيلة دفع قانونية دون افتراض توفرها في كل مكان.",
+      "حافظ على أموالك ووسائل الدفع في مكان آمن وراقب نفقاتك."
+    ],
+    "checklistEn": [
+      "Verify accepted payment methods before travel.",
+      "Plan more than one lawful payment option without assuming universal availability.",
+      "Keep money and payment methods secure and monitor your spending."
+    ],
+    "requiresOfficialVerification": true,
+    "enabled": true
+  },
+  {
+    "id": "connectivity",
+    "category": "connectivity",
+    "titleAr": "الاتصالات والإنترنت",
+    "titleEn": "Connectivity and Internet",
+    "summaryAr": "تحقق من خيارات الاتصال المناسبة واحتفظ بالمعلومات الأساسية للاستخدام دون اتصال.",
+    "summaryEn": "Check suitable connectivity options and keep essential information available offline.",
+    "checklistAr": [
+      "تحقق من توافق جهازك وخيارات الاتصال قبل السفر.",
+      "احتفظ بنسخ دون اتصال من الوثائق والمعلومات الأساسية.",
+      "لا تعتمد على اتصال مستمر وتحقق من الخيارات المتاحة محليًا."
+    ],
+    "checklistEn": [
+      "Check device compatibility and connectivity options before travel.",
+      "Keep offline copies of essential documents and information.",
+      "Do not rely on continuous connectivity; verify options locally."
+    ],
+    "requiresOfficialVerification": true,
+    "enabled": true
+  },
+  {
+    "id": "transport",
+    "category": "transport",
+    "titleAr": "التنقل والمواصلات",
+    "titleEn": "Transport and Mobility",
+    "summaryAr": "راجع خيارات التنقل وتحقق من تفاصيل التشغيل والترتيبات قبل كل رحلة.",
+    "summaryEn": "Review mobility options and verify operating details and arrangements before each journey.",
+    "checklistAr": [
+      "تحقق من خيارات النقل المتاحة وتفاصيلها قبل كل رحلة.",
+      "اترك وقتًا مرنًا وأكد ترتيباتك قبل الانطلاق.",
+      "راجع متطلبات الوصول وشروط الاستخدام مع الجهة المقدمة عند الحاجة."
+    ],
+    "checklistEn": [
+      "Check available transport options and details before each journey.",
+      "Allow flexible time and confirm arrangements before departure.",
+      "Verify access requirements and conditions with the provider when needed."
+    ],
+    "requiresOfficialVerification": true,
+    "enabled": true
+  },
+  {
+    "id": "culture",
+    "category": "culture",
+    "titleAr": "الثقافة وآداب الزيارة",
+    "titleEn": "Culture and Visitor Etiquette",
+    "summaryAr": "احترم العادات المحلية وإرشادات المواقع واطلب الإذن عندما يكون ذلك مناسبًا.",
+    "summaryEn": "Respect local customs and site guidance, and ask permission when appropriate.",
+    "checklistAr": [
+      "راعِ العادات المحلية والملابس المناسبة للمكان.",
+      "اطلب الإذن قبل تصوير الأشخاص أو الأماكن الخاصة.",
+      "اتبع تعليمات المواقع وتحقق من القيود المحلية قبل الزيارة."
+    ],
+    "checklistEn": [
+      "Respect local customs and dress appropriately for the setting.",
+      "Ask permission before photographing people or private places.",
+      "Follow site guidance and check local restrictions before visiting."
+    ],
+    "requiresOfficialVerification": true,
+    "enabled": true
+  },
+  {
+    "id": "weather-packing",
+    "category": "weatherAndPacking",
+    "titleAr": "الطقس وتجهيز الأمتعة",
+    "titleEn": "Weather and Packing",
+    "summaryAr": "تحقق من الظروف الجوية الحالية وجهّز أمتعتك بما يناسب المناطق التي ستزورها.",
+    "summaryEn": "Check current weather conditions and prepare for the regions you plan to visit.",
+    "checklistAr": [
+      "راجع حالة الطقس قريبًا من موعد المغادرة وخلال الرحلة.",
+      "جهّز ملابس وحماية شخصية تناسب الظروف التي تحققت منها.",
+      "عدّل تجهيزاتك حسب المنطقة والموسم بعد مراجعة الظروف الحالية."
+    ],
+    "checklistEn": [
+      "Check weather conditions close to departure and during the trip.",
+      "Pack clothing and personal protection suited to the conditions you verified.",
+      "Adapt your equipment to the region and season after reviewing current conditions."
+    ],
+    "requiresOfficialVerification": true,
+    "enabled": true
+  }
+]

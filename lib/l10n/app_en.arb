@@ -76,6 +76,10 @@
   "routeFieldVerificationRequired": "Field verification required",
   "routeFieldVerificationNotice": "This route is a working draft and requires field verification before approval or travel planning.",
   "beforeTravel": "Before Travel",
+  "beforeTravelIntroduction": "Essential guidance to help you prepare for your trip.",
+  "beforeTravelOfficialNotice": "This information is general guidance and may change. Verify it with the relevant official authorities before travel or taking action.",
+  "beforeTravelChecklist": "Checklist",
+  "beforeTravelOfficialVerificationRequired": "Official verification required",
 
   "heritageAndCivilizations": "Heritage & Civilizations",
   "desertAndAdventure": "Desert & Adventure",

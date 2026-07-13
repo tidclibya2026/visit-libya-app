@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:visit_libya_app/data/repositories/guide_repository.dart';
+import 'package:visit_libya_app/features/before_travel/before_travel_screen.dart';
 import 'package:visit_libya_app/features/events/events_screen.dart';
 import 'package:visit_libya_app/features/routes/routes_screen.dart';
 import 'package:visit_libya_app/features/smart_guide/smart_guide_screen.dart';
@@ -177,6 +178,20 @@ void main() {
     await _tapAction(tester);
 
     expect(find.byType(RoutesScreen), findsOneWidget);
+  });
+
+  testWidgets('before-travel action opens BeforeTravelScreen', (
+    WidgetTester tester,
+  ) async {
+    await tester.pumpWidget(
+      _guideApp(bundle: TrackingGuideAssetBundle(guideIntentsJson())),
+    );
+    await tester.pumpAndSettle();
+
+    await _submitQuery(tester, 'before travel');
+    await _tapAction(tester);
+
+    expect(find.byType(BeforeTravelScreen), findsOneWidget);
   });
 
   testWidgets('narrow English layout has no overflow', (
