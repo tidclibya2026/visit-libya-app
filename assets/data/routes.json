@@ -1,0 +1,78 @@
+[
+  {
+    "id": "civilizations",
+    "titleAr": "مسار الحضارات",
+    "titleEn": "Civilizations Route",
+    "summaryAr": "يربط طرابلس ولبدة الكبرى وصبراتة ضمن مسار يبرز تعاقب الحضارات والمواقع الأثرية.",
+    "summaryEn": "Connects Tripoli, Leptis Magna, and Sabratha through Libya's layered civilizations and archaeological heritage.",
+    "destinationIds": [
+      "tripoli",
+      "leptis-magna",
+      "sabratha"
+    ],
+    "status": "draft",
+    "featured": true,
+    "image": "",
+    "requiresFieldVerification": true
+  },
+  {
+    "id": "green-mountain",
+    "titleAr": "مسار الجبل الأخضر",
+    "titleEn": "Green Mountain Route",
+    "summaryAr": "يجمع بنغازي والجبل الأخضر ضمن مسار يبرز التنوع الطبيعي والتراث المحلي في شرق ليبيا.",
+    "summaryEn": "Links Benghazi and the Green Mountain through eastern Libya's natural landscapes and local heritage.",
+    "destinationIds": [
+      "benghazi",
+      "green-mountain"
+    ],
+    "status": "draft",
+    "featured": true,
+    "image": "",
+    "requiresFieldVerification": true
+  },
+  {
+    "id": "desert",
+    "titleAr": "مسار الصحراء",
+    "titleEn": "Desert Route",
+    "summaryAr": "يربط أكاكوس وأوباري ضمن مسار يعرّف بالمشهد الصحراوي والتراث الثقافي في جنوب غرب ليبيا.",
+    "summaryEn": "Connects Akakus and Ubari through the desert landscapes and cultural heritage of southwestern Libya.",
+    "destinationIds": [
+      "akakus",
+      "ubari"
+    ],
+    "status": "draft",
+    "featured": true,
+    "image": "",
+    "requiresFieldVerification": true
+  },
+  {
+    "id": "oasis",
+    "titleAr": "مسار الواحات",
+    "titleEn": "Oasis Route",
+    "summaryAr": "يجمع غدامس وأوباري ضمن مسار يبرز تراث الواحات وتنوع بيئاتها الثقافية والطبيعية.",
+    "summaryEn": "Links Ghadames and Ubari through the cultural heritage and natural settings of Libya's oases.",
+    "destinationIds": [
+      "ghadames",
+      "ubari"
+    ],
+    "status": "draft",
+    "featured": true,
+    "image": "",
+    "requiresFieldVerification": true
+  },
+  {
+    "id": "nafusa",
+    "titleAr": "مسار جبل نفوسة",
+    "titleEn": "Nafusa Route",
+    "summaryAr": "يربط طرابلس بجبل نفوسة ضمن مسار يبرز تنوع العمارة والتراث والمشهد الجبلي.",
+    "summaryEn": "Connects Tripoli with the Nafusa Mountains through distinctive architecture, heritage, and highland landscapes.",
+    "destinationIds": [
+      "tripoli",
+      "nafusa-mountains"
+    ],
+    "status": "draft",
+    "featured": true,
+    "image": "",
+    "requiresFieldVerification": true
+  }
+]
