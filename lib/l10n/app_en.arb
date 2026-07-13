@@ -52,6 +52,22 @@
   "smartGuide": "Smart Guide",
   "smartGuideBeta": "Smart Guide — Beta",
   "touristRoutes": "Tourist Routes",
+  "routeDetails": "Route Details",
+  "routeStops": "Route Stops",
+  "routeStopCount": "Stops: {count}",
+  "@routeStopCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "viewDetails": "View Details",
+  "retry": "Retry",
+  "routeStatusDraft": "Draft",
+  "routeStatusReviewed": "Reviewed",
+  "routeStatusApproved": "Approved",
+  "routeStatusArchived": "Archived",
+  "routeFieldVerificationRequired": "Field verification required",
+  "routeFieldVerificationNotice": "This route is a working draft and requires field verification before approval or travel planning.",
   "beforeTravel": "Before Travel",
 
   "heritageAndCivilizations": "Heritage & Civilizations",

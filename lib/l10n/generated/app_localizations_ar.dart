@@ -131,6 +131,42 @@ class AppLocalizationsAr extends AppLocalizations {
   String get touristRoutes => 'المسارات السياحية';
 
   @override
+  String get routeDetails => 'تفاصيل المسار';
+
+  @override
+  String get routeStops => 'محطات المسار';
+
+  @override
+  String routeStopCount(int count) {
+    return 'عدد المحطات: $count';
+  }
+
+  @override
+  String get viewDetails => 'عرض التفاصيل';
+
+  @override
+  String get retry => 'إعادة المحاولة';
+
+  @override
+  String get routeStatusDraft => 'مسودة';
+
+  @override
+  String get routeStatusReviewed => 'مراجع';
+
+  @override
+  String get routeStatusApproved => 'معتمد';
+
+  @override
+  String get routeStatusArchived => 'مؤرشف';
+
+  @override
+  String get routeFieldVerificationRequired => 'يتطلب التحقق الميداني';
+
+  @override
+  String get routeFieldVerificationNotice =>
+      'هذا المسار مسودة عمل ويتطلب التحقق الميداني قبل الاعتماد أو التخطيط للسفر.';
+
+  @override
   String get beforeTravel => 'قبل السفر';
 
   @override

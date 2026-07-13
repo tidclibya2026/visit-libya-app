@@ -338,6 +338,72 @@ abstract class AppLocalizations {
   /// **'Tourist Routes'**
   String get touristRoutes;
 
+  /// No description provided for @routeDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Route Details'**
+  String get routeDetails;
+
+  /// No description provided for @routeStops.
+  ///
+  /// In en, this message translates to:
+  /// **'Route Stops'**
+  String get routeStops;
+
+  /// No description provided for @routeStopCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Stops: {count}'**
+  String routeStopCount(int count);
+
+  /// No description provided for @viewDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'View Details'**
+  String get viewDetails;
+
+  /// No description provided for @retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get retry;
+
+  /// No description provided for @routeStatusDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Draft'**
+  String get routeStatusDraft;
+
+  /// No description provided for @routeStatusReviewed.
+  ///
+  /// In en, this message translates to:
+  /// **'Reviewed'**
+  String get routeStatusReviewed;
+
+  /// No description provided for @routeStatusApproved.
+  ///
+  /// In en, this message translates to:
+  /// **'Approved'**
+  String get routeStatusApproved;
+
+  /// No description provided for @routeStatusArchived.
+  ///
+  /// In en, this message translates to:
+  /// **'Archived'**
+  String get routeStatusArchived;
+
+  /// No description provided for @routeFieldVerificationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Field verification required'**
+  String get routeFieldVerificationRequired;
+
+  /// No description provided for @routeFieldVerificationNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'This route is a working draft and requires field verification before approval or travel planning.'**
+  String get routeFieldVerificationNotice;
+
   /// No description provided for @beforeTravel.
   ///
   /// In en, this message translates to:

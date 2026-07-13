@@ -133,6 +133,42 @@ class AppLocalizationsEn extends AppLocalizations {
   String get touristRoutes => 'Tourist Routes';
 
   @override
+  String get routeDetails => 'Route Details';
+
+  @override
+  String get routeStops => 'Route Stops';
+
+  @override
+  String routeStopCount(int count) {
+    return 'Stops: $count';
+  }
+
+  @override
+  String get viewDetails => 'View Details';
+
+  @override
+  String get retry => 'Retry';
+
+  @override
+  String get routeStatusDraft => 'Draft';
+
+  @override
+  String get routeStatusReviewed => 'Reviewed';
+
+  @override
+  String get routeStatusApproved => 'Approved';
+
+  @override
+  String get routeStatusArchived => 'Archived';
+
+  @override
+  String get routeFieldVerificationRequired => 'Field verification required';
+
+  @override
+  String get routeFieldVerificationNotice =>
+      'This route is a working draft and requires field verification before approval or travel planning.';
+
+  @override
   String get beforeTravel => 'Before Travel';
 
   @override
